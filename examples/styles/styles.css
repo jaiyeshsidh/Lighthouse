@@ -93,6 +93,8 @@ input[type=checkbox]:checked + label:before {
 
 .layer:nth-child(1) {
   opacity: 1;
+  background-size: cover;
+  margin-top:-46px;
 }
 .layer:nth-child(1) button {
   -webkit-transform: rotate(150deg);
@@ -107,6 +109,11 @@ input[type=checkbox]:checked + label:before {
 
 .layer:nth-child(3) {
   opacity: 1;
+  margin-left: 68%;
+  margin-top:290px;
+  height:330px;
+  width:165px;
+
 }
 .layer:nth-child(3) button {
   -webkit-transform: rotate(90deg);
@@ -114,6 +121,9 @@ input[type=checkbox]:checked + label:before {
 
 .layer:nth-child(4) {
   opacity: 1;
+  left:-200px !important;
+  width:150%;
+  background-size:contain;
 }
 .layer:nth-child(4) button {
   -webkit-transform: rotate(60deg);
@@ -121,7 +131,9 @@ input[type=checkbox]:checked + label:before {
 
 .layer:nth-child(5) {
   opacity: 1;
-
+  left:-120px !important;
+  width:175%;
+  background-size:contain;
 }
 .layer:nth-child(5) button {
   -webkit-transform: rotate(30deg);
@@ -129,7 +141,9 @@ input[type=checkbox]:checked + label:before {
 
 .layer:nth-child(6) {
   opacity: 1;
-  left:0px !important;
+  left:-240px !important;
+  width:180%;
+  background-size:contain;
 }
 .layer:nth-child(6) button {
 }
